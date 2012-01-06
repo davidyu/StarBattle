@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StarBattle" />
+		<Option execution_dir="..\..\code" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;Mac;" />
+				<Option output="bin\Debug\StarBattle" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\code" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-graphics-s-d" />
+					<Add option="-lsfml-window-s-d" />
+					<Add option="-lsfml-system-s-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\StarBattle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-system-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="..\..\code" />
+			<Add directory="..\..\code\include" />
+		</Compiler>
+		<Unit filename="..\..\code\include\CBullet.h" />
+		<Unit filename="..\..\code\include\CBulletFactory.h" />
+		<Unit filename="..\..\code\include\CBulletFlyweight.h" />
+		<Unit filename="..\..\code\include\CCollisionManager.h" />
+		<Unit filename="..\..\code\include\CFleet.h" />
+		<Unit filename="..\..\code\include\CGameEngine.h" />
+		<Unit filename="..\..\code\include\CGenericObject.h" />
+		<Unit filename="..\..\code\include\CGenericShip.h" />
+		<Unit filename="..\..\code\include\CShipFactory.h" />
+		<Unit filename="..\..\code\include\CSquadron.h" />
+		<Unit filename="..\..\code\include\CStarSystem.h" />
+		<Unit filename="..\..\code\include\CWeapon.h" />
+		<Unit filename="..\..\code\include\GameObjects\CInterceptor.h" />
+		<Unit filename="..\..\code\include\GameObjects\CInterceptorFlyweight.h" />
+		<Unit filename="..\..\code\include\GameObjects\CPilotHuman.h" />
+		<Unit filename="..\..\code\include\GameObjects\CPilotInterceptor.h" />
+		<Unit filename="..\..\code\include\GameStates\SGameScreenMain.h" />
+		<Unit filename="..\..\code\include\GameTemplates.h" />
+		<Unit filename="..\..\code\include\IGameState.h" />
+		<Unit filename="..\..\code\include\IPilot.h" />
+		<Unit filename="..\..\code\include\IShip.h" />
+		<Unit filename="..\..\code\include\IShipFlyweight.h" />
+		<Unit filename="..\..\code\include\IShipStrategy.h" />
+		<Unit filename="..\..\code\main.cpp" />
+		<Unit filename="..\..\code\my_utilities\BoxPruner.h" />
+		<Unit filename="..\..\code\my_utilities\CAnim.h" />
+		<Unit filename="..\..\code\my_utilities\CAnimManager.h" />
+		<Unit filename="..\..\code\my_utilities\CPolygon.h" />
+		<Unit filename="..\..\code\my_utilities\CPoolManager.h" />
+		<Unit filename="..\..\code\my_utilities\CPoolable.h" />
+		<Unit filename="..\..\code\my_utilities\CRect.h" />
+		<Unit filename="..\..\code\my_utilities\CResourceManager.h" />
+		<Unit filename="..\..\code\my_utilities\CRigidBody.h" />
+		<Unit filename="..\..\code\my_utilities\Collision.h" />
+		<Unit filename="..\..\code\my_utilities\RadixSort.h" />
+		<Unit filename="..\..\code\my_utilities\memory_macros.h" />
+		<Unit filename="..\..\code\my_utilities\misc_helper.h" />
+		<Unit filename="..\..\code\my_utilities\mymath.h" />
+		<Unit filename="..\..\code\my_utilities\mytypes.h" />
+		<Unit filename="..\..\code\my_utilities\src\BoxPruner.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\CAnim.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\CAnimManager.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\CPolygon.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\CResourceManager.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\CRigidBody.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\Collision.cpp" />
+		<Unit filename="..\..\code\my_utilities\src\RadixSort.cpp" />
+		<Unit filename="..\..\code\my_utilities\vec2.h" />
+		<Unit filename="..\..\code\resources\sprites\Test_Ship_Sprite.png" />
+		<Unit filename="..\..\code\src\CBullet.cpp" />
+		<Unit filename="..\..\code\src\CBulletFactory.cpp" />
+		<Unit filename="..\..\code\src\CCollisionManager.cpp" />
+		<Unit filename="..\..\code\src\CFleet.cpp" />
+		<Unit filename="..\..\code\src\CGameEngine.cpp" />
+		<Unit filename="..\..\code\src\CShipFactory.cpp" />
+		<Unit filename="..\..\code\src\CSquadron.cpp" />
+		<Unit filename="..\..\code\src\CStarSystem.cpp" />
+		<Unit filename="..\..\code\src\CWeapon.cpp" />
+		<Unit filename="..\..\code\src\GameObjects\CInterceptor.cpp" />
+		<Unit filename="..\..\code\src\GameObjects\CInterceptorFlyweight.cpp" />
+		<Unit filename="..\..\code\src\GameObjects\CPilotHuman.cpp" />
+		<Unit filename="..\..\code\src\GameObjects\CPilotInterceptor.cpp" />
+		<Unit filename="..\..\code\src\GameStates\SGameScreenMain.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

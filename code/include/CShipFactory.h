@@ -1,0 +1,44 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ *	Factory to produce instances of ships
+ *	\file		CShipFactory.h
+ *	\author		Fish
+ *	\date		July 20, 2011
+ *  \brief      Manages and distributes instances singular instances of ships
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Include Guard
+#ifndef CSHIPFACTORY_H
+#define CSHIPFACTORY_H
+
+// Headers
+#include "my_utilities/mytypes.h"
+#include <map>
+
+
+using std::map;
+
+enum SHIP_TYPE { LIGHT, MEDIUM, HEAVY };
+
+class CGameEngine;
+class IShipFlyweight;
+
+class CShipFactory
+{
+    public:
+                                        CShipFactory();
+                                        ~CShipFactory();
+
+
+    static  IShipFlyweight*                      GetShip(SHIP_TYPE type, CGameEngine* game);
+
+    private:
+    static  map<SHIP_TYPE, IShipFlyweight*>      ships_;                 //!< map of Intrinsic ships
+    static  uint                                 shipsCount_;            //!< Number of ships
+};
+
+
+
+#endif // CSHIPFACTORY_H

@@ -1,0 +1,36 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ *	\file		IFleetComponent.h
+ *	\author		Fish
+ *	\date		Jul 31, 2011
+ *  \brief      Composite element
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Include Guard
+#ifndef IFLEETCOMPONENT_H
+#define IFLEETCOMPONENT_H
+
+// Headers
+#include "CGenericShip.h"
+
+#include <vector>
+
+using std::vector;
+
+class CGenericShip;
+class CStarSystem;
+class CGameEngine;
+
+
+class IFleetComponent
+{
+    public:
+    virtual void                Update()                                               = 0;
+    virtual void                CalcMoves(CGameEngine *game, const CStarSystem& level) = 0;
+    virtual void                Draw(CGameEngine *game)                                = 0;
+    virtual void                GetAll(vector<CGenericShip*>& all)                     = 0;
+    virtual void                AddChild(vector<CGenericShip*> shipRegister, TShipType type) = 0;
+};
+#endif // IFLEETCOMPONENT_H

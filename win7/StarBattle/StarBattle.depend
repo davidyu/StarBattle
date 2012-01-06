@@ -1,0 +1,492 @@
+# depslib dependency file v1.0
+1310512065 source:c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\src\cpolygon.cpp
+	"../CPolygon.h"
+	"../Collision.h"
+
+1310444153 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\cpolygon.h
+	"Vec2.h"
+	"CRect.h"
+	<cassert>
+	<vector>
+
+1310447929 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\vec2.h
+	<math.h>
+
+1310531833 source:c:\users\tannis\svn\starbattle-game-jam\code\main.cpp
+	<SFML/Graphics.hpp>
+	"my_utilities/mymath.h"
+	"include/CQuadTree.h"
+	"my_utilities/CPolygon.h"
+	"my_utilities/Collision.h"
+	"my_utilities/CRigidBody.h"
+	"my_utilities/MiscHelper.h"
+	<vector>
+	<iostream>
+
+1310515612 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\mymath.h
+	"Vec2.h"
+	"CPolygon.h"
+	"CRect.h"
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1309926250 c:\users\tannis\svn\starbattle-game-jam\code\collision.h
+	"my_utilities/mymath.h"
+	<SFML/Graphics/Shape.hpp>
+
+1309995170 c:\users\tannis\svn\starbattle-game-jam\code\include\collision.h
+	"my_utilities/mymath.h"
+	<SFML/Graphics/Shape.hpp>
+
+1310001291 source:c:\users\tannis\svn\starbattle-game-jam\code\src\collision.cpp
+	"../include/Collision.h"
+	<SFML/Graphics/Shape.hpp>
+
+1310511133 source:c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\src\crigidbody.cpp
+	"../CRigidBody.h"
+
+1310512946 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\crigidbody.h
+	"my_utilities/mymath.h"
+	"my_utilities/Collision.h"
+	"include/CQuadTreePosItem.h"
+
+1310419809 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\collision.h
+	"mymath.h"
+	"CRigidBody.h"
+	<vector>
+
+1310521458 source:c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\src\collision.cpp
+	"../Collision.h"
+	<SFML/Graphics/Shape.hpp>
+	<stdlib.h>
+
+1310506181 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\crect.h
+
+1310520975 source:c:\users\tannis\svn\starbattle-game-jam\code\src\cquadtree.cpp
+	"../include/CQuadTree.h"
+	"my_utilities/mischelper.h"
+
+1310520975 c:\users\tannis\svn\starbattle-game-jam\code\include\cquadtree.h
+	"my_utilities/mymath.h"
+	"CQuadTreePosItem.h"
+	"CQuadTreeNode.h"
+	<SFML/Graphics.hpp>
+
+1310447197 c:\users\tannis\svn\starbattle-game-jam\code\my_utilities\mischelper.h
+	<algorithm>
+	<vector>
+
+1310513272 c:\users\tannis\svn\starbattle-game-jam\code\include\cquadtreepositem.h
+	"my_utilities/mymath.h"
+
+1310531335 c:\users\tannis\svn\starbattle-game-jam\code\include\cquadtreenode.h
+	"CQuadTreePosItem.h"
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics.hpp>
+
+1310535611 source:c:\users\tannis\svn\starbattle-game-jam\code\src\cquadtreenode.cpp
+	"../include/CQuadTreeNode.h"
+	"my_utilities/mischelper.h"
+	<iostream>
+
+1310517678 source:c:\users\tannis\svn\starbattle-game-jam\code\src\cquadtreepositem.cpp
+	"../include/CQuadTreePosItem.h"
+	"../include/CQuadTreeNode.h"
+	"my_utilities/CRigidBody.h"
+
+1310446237 c:\users\tannis\svn\starbattle-game-jam\code\src\cquadtree.cpp
+	"../include/CQuadTree.h"
+	"my_utilities/mischelper.h"
+
+1313210685 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\cpolygon.cpp
+	"../CPolygon.h"
+	"../Collision.h"
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\cpolygon.h
+	"Vec2.h"
+	"CRect.h"
+	<cassert>
+	<vector>
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\vec2.h
+	<math.h>
+
+1313263738 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\crect.h
+	"Vec2.h"
+	"mytypes.h"
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\collision.h
+	"mymath.h"
+	"CRigidBody.h"
+	<vector>
+
+1313263516 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\mymath.h
+	"Vec2.h"
+	"CPolygon.h"
+	"CRect.h"
+	"mytypes.h"
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1313952918 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\crigidbody.h
+	"my_utilities/mymath.h"
+	"my_utilities/Collision.h"
+
+1313952918 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\crigidbody.cpp
+	"../CRigidBody.h"
+
+1313210685 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\collision.cpp
+	"../Collision.h"
+	<SFML/Graphics/Shape.hpp>
+	<stdlib.h>
+
+1313210686 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\main.cpp
+	"CGameEngine.h"
+	"GameStates/SGameScreenMain.h"
+	<stdlib.h>
+	<vector>
+	<iostream>
+
+1311801455 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\mischelper.h
+	<string>
+	<algorithm>
+	<map>
+	<vector>
+
+1312499363 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\mytypes.h
+
+1311048379 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\boxpruner.cpp
+	"BoxPruner.h"
+	"memory_macros.h"
+
+1312584590 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\boxpruner.h
+	"RadixSort.h"
+	"CRect.h"
+	"mytypes.h"
+	<vector>
+
+1312319393 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\radixsort.h
+	"mytypes.h"
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\memory_macros.h
+	<string.h>
+
+1311040563 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\radixsort.cpp
+	"RadixSort.h"
+	"memory_macros.h"
+
+1312319393 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\boxpruner.cpp
+	"../BoxPruner.h"
+	"../memory_macros.h"
+
+1312061000 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\radixsort.cpp
+	"../RadixSort.h"
+	"../memory_macros.h"
+
+1312338236 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cinterceptor.cpp
+	"CPilotHuman.h"
+	"CPilotInterceptor.h"
+	"CShipFactory.h"
+	"GameTemplates.h"
+	<vector>
+	"CInterceptor.h"
+
+1313345061 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cshipfactory.h
+	"my_utilities/mytypes.h"
+	<map>
+
+1311201603 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\iship.h
+	"my_utilities/CRigidBody.h"
+	"SFML/Graphics.hpp"
+
+1312229347 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cinterceptor.h
+	"CGenericShip.h"
+	"my_utilities/mymath.h"
+	<SFML/Graphics.hpp>
+
+1311214003 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cinterceptorflyweight.cpp
+	"CInterceptorFlyweight.h"
+
+1311210943 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cinterceptorflyweight.h
+	"IShipFlyweight.h"
+
+1313210686 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cshipfactory.cpp
+	"GameTemplates.h"
+	"GameObjects/CInterceptorFlyweight.h"
+	"my_utilities/misc_helper.h"
+	"CShipFactory.h"
+
+1313210686 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\ishipflyweight.h
+	"my_utilities/CRigidBody.h"
+	"SFML/Graphics.hpp"
+	"CGameEngine.h"
+
+1313952999 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cgenericship.h
+	"GameObjects/CPilotHuman.h"
+	"GameObjects/CPilotInterceptor.h"
+	"my_utilities/CAnim.h"
+	"IShipFlyweight.h"
+	"CShipFactory.h"
+	"IPilot.h"
+	"CGenericObject.h"
+	"CGameEngine.h"
+
+1311797173 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\canim.cpp
+	"../CAnim.h"
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\canim.h
+	<SFML/Graphics.hpp>
+	<vector>
+	"mytypes.h"
+	"mymath.h"
+	"vec2.h"
+
+1311380625 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cpilot.h
+	"SFML/Graphics.hpp"
+
+1311380195 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cpilot.cpp
+	"CPilot.h"
+	"CGenericShip.h"
+	"my_utilities/mymath.h"
+
+1312500011 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\ipilot.h
+	"SFML/Graphics.hpp"
+	<vector>
+
+1312350846 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cpilothuman.cpp
+	"CPilotHuman.h"
+	"CGenericShip.h"
+	"my_utilities/CGameEngine.h"
+	"my_utilities/mymath.h"
+	<iostream>
+
+1312231228 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cpilothuman.h
+	"IPilot.h"
+	"SFML/Graphics.hpp"
+	<vector>
+
+1313210686 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cstarsystem.h
+	"CBullet.h"
+	"CGenericShip.h"
+	"CCollisionManager.h"
+	"my_utilities/mymath.h"
+	<SFML/Graphics.hpp>
+	<vector>
+
+1313292573 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cstarsystem.cpp
+	"CBullet.h"
+	"CFleet.h"
+	"CStarSystem.h"
+	"my_utilities/CPoolManager.h"
+	"my_utilities/misc_helper.h"
+	"my_utilities/Collision.h"
+	<iostream>
+	"GameObjects/CInterceptor.h"
+
+1311791192 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\cgameengine.cpp
+	"../CGameEngine.h"
+	"../IGameState.h"
+
+1311791205 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\cgameengine.h
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+
+1311560704 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\igamestate.h
+	"CGameEngine.h"
+
+1312331130 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cpilotinterceptor.cpp
+	"CStarSystem.h"
+	"SFML/Graphics.hpp"
+	"CPilotInterceptor.h"
+	<iostream>
+
+1312231228 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cpilotinterceptor.h
+	"IPilot.h"
+
+1312229983 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\sgamescreenmain.cpp
+	"CInterceptor.h"
+	"my_utilities/BoxPruner.h"
+	"SGameScreenMain.h"
+
+1311792878 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\sgamescreenmain.h
+	"CStarSystem.h"
+	"my_utilities/IGameState.h"
+	<vector>
+
+1311797134 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\cresourcemanager.h
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+	<map>
+
+1313210685 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\cresourcemanager.cpp
+	"../misc_helper.h"
+	"../CResourceManager.h"
+	<iostream>
+
+1312225528 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\ifleetcomponent.h
+	"CGenericShip.h"
+	<vector>
+
+1313210686 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cfleet.cpp
+	"my_utilities/misc_helper.h"
+	"CSquadron.h"
+	"CFleet.h"
+
+1312833701 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cfleet.h
+	"CGenericShip.h"
+	"CSquadron.h"
+	<vector>
+	"my_utilities/mytypes.h"
+
+1313210686 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\csquadron.cpp
+	"GameObjects/CInterceptor.h"
+	"my_utilities/misc_helper.h"
+	<SFML/Graphics.hpp>
+	"CSquadron.h"
+
+1312833701 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\csquadron.h
+	"CGenericShip.h"
+	"my_utilities/mytypes.h"
+	<vector>
+
+1313263048 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\ccollisionmanager.h
+	"my_utilities/BoxPruner.h"
+	<vector>
+
+1313953044 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\ccollisionmanager.cpp
+	"CBullet.h"
+	"CGenericObject.h"
+	"CGenericShip.h"
+	"my_utilities/BoxPruner.h"
+	"CCollisionManager.h"
+
+1312338416 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\ishot.cpp
+	"IShot.h"
+
+1312338337 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\ishot.h
+	"my_utilities/CRigidBody.h"
+
+1313952955 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cgenericobject.h
+	"my_utilities/CRigidBody.h"
+
+1313210686 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gametemplates.h
+	"IShipFlyweight.h"
+	"my_utilities/CPolygon.h"
+
+1312500011 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gameobjects\cpilothuman.h
+	"IPilot.h"
+	"SFML/Graphics.hpp"
+	<vector>
+
+1313210686 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gameobjects\cpilotinterceptor.h
+	"IPilot.h"
+
+1313264472 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cgameengine.h
+	"my_utilities/mymath.h"
+	"my_utilities/CResourceManager.h"
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+
+1312405545 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gamestates\sgamescreenmain.h
+	"CStarSystem.h"
+	"IGameState.h"
+	<vector>
+
+1312405332 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\igamestate.h
+	"CGameEngine.h"
+
+1313344141 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gameobjects\cinterceptorflyweight.h
+	"CWeapon.h"
+	"IShipFlyweight.h"
+	"CGameEngine.h"
+	"my_utilities/CAnimManager.h"
+
+1313210686 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\gameobjects\cinterceptor.h
+	"CGenericShip.h"
+	"my_utilities/mymath.h"
+	"my_utilities/CAnim.h"
+	<SFML/Graphics.hpp>
+
+1313953110 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\gameobjects\cinterceptor.cpp
+	"GameObjects/CPilotHuman.h"
+	"GameObjects/CPilotInterceptor.h"
+	"CShipFactory.h"
+	<vector>
+	"GameObjects/CInterceptor.h"
+
+1313344222 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\gameobjects\cinterceptorflyweight.cpp
+	"GameObjects/CInterceptorFlyweight.h"
+
+1313210686 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\gameobjects\cpilothuman.cpp
+	"GameObjects/CPilotHuman.h"
+	"CGenericShip.h"
+	"CStarSystem.h"
+	"CGameEngine.h"
+	"my_utilities/mymath.h"
+	<iostream>
+
+1313264743 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\gameobjects\cpilotinterceptor.cpp
+	"CStarSystem.h"
+	"SFML/Graphics.hpp"
+	"GameObjects/CPilotInterceptor.h"
+	<iostream>
+
+1313953126 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\gamestates\sgamescreenmain.cpp
+	"GameObjects/CInterceptor.h"
+	"my_utilities/BoxPruner.h"
+	"GameStates/SGameScreenMain.h"
+
+1312508362 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cgameengine.cpp
+	"CGameEngine.h"
+	"IGameState.h"
+
+1313952962 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cbullet.h
+	"CGenericObject.h"
+	"my_utilities/CPoolManager.h"
+	"my_utilities/CPoolable.h"
+	"CGameEngine.h"
+	<SFML/Graphics.hpp>
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\cpoolmanager.h
+	"memory_macros.h"
+	"misc_helper.h"
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\misc_helper.h
+	<string>
+	<algorithm>
+	<map>
+	<vector>
+
+1313345611 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\cpoolable.h
+
+1313210685 c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\canimmanager.h
+	<vector>
+	<map>
+	"CAnim.h"
+	"CGameEngine.h"
+
+1313210685 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\my_utilities\src\canimmanager.cpp
+	"../CAnimManager.h"
+
+1313345598 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cweapon.h
+	"CBullet.h"
+
+1313344077 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cweapon.cpp
+	"CWeapon.h"
+
+1313344751 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cbullet.cpp
+
+1313345854 source:c:\users\tannis\svn\starbattle-game-jam\trunk\code\src\cbulletfactory.cpp
+	"CBulletFlyweight.h"
+	"CBulletFactory.h"
+
+1313344854 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cbulletflyweight.h
+	"my_utilities/CAnimManager.h"
+
+1313345807 c:\users\tannis\svn\starbattle-game-jam\trunk\code\include\cbulletfactory.h
+	<map>
+
